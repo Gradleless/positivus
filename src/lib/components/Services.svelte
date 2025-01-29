@@ -10,7 +10,7 @@
 		<div class="w-fit items-center p-4 md:w-auto">
 			<h2 class="rounded-lg bg-[#B9FF66] p-1 text-3xl font-bold">Services</h2>
 		</div>
-		<div class="w-[600px] items-center p-4">
+		<div class="w-[400px] items-center p-4 md:w-[600px]">
 			<p class="">
 				At our digital marketing agency, we offer a range of services to help businesses grow and
 				succeed online. These services include:

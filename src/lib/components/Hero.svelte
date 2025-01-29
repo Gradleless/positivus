@@ -1,5 +1,5 @@
 <div
-	class=" space-grotesk-400 flex flex-col-reverse items-center justify-between bg-white px-6 pt-10 md:flex-row md:px-28"
+	class="space-grotesk-400 flex flex-col-reverse items-center justify-between bg-white px-6 pt-10 md:flex-row md:px-28"
 >
 	<div class="flex w-full flex-col items-center text-center md:w-1/3 md:items-start md:text-left">
 		<h1 class="mb-4 text-4xl font-bold md:mb-16 md:text-6xl">
