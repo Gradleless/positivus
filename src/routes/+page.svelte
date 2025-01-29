@@ -1,9 +1,9 @@
 <script>
-	import ContactUs from './ContactUs.svelte';
+	import ContactUs from '$lib/components/ContactUs.svelte';
 
-	import TheTeam from './TheTeam.svelte';
-	import WorkingProcess from './WorkingProcess.svelte';
-	import CastStudies from './CastStudies.svelte';
+	import TheTeam from '$lib/components/TheTeam.svelte';
+	import WorkingProcess from '$lib/components/WorkingProcess.svelte';
+	import CastStudies from '../lib/components/CastStudies.svelte';
 	import CTA from '../lib/components/CTA.svelte';
 	import Services from '../lib/components/Services.svelte';
 	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
