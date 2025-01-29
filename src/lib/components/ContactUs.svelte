@@ -1,7 +1,7 @@
 <section class="space-grotesk-400 px-6 py-12 md:px-40">
-	<div class="mb-16 flex flex-col items-center gap-x-8 md:flex-row">
+	<div class="mb-16 flex flex-col items-center justify-center gap-x-8 text-center md:flex-row">
 		<h2 class="rounded-xl bg-[#B9FF66] p-1 text-4xl font-bold">Contact Us!</h2>
-		<h3 class="font-base w-[400px] text-base text-black">
+		<h3 class="font-base mt-3 w-[400px] text-base text-black">
 			Connect with Us: Let's Discuss Your Digital Marketing Needs
 		</h3>
 	</div>
@@ -9,7 +9,7 @@
 	<!-- Contact Us Section -->
 	<div class="relative mx-6 space-y-8 rounded-[45px] bg-[#F3F3F3] p-6 md:p-10">
 		<!-- First Row: Radio Buttons -->
-		<div class="flex flex-col items-center justify-start gap-4 md:flex-row md:justify-start">
+		<div class="flex flex-col items-start justify-start gap-4 md:flex-row md:justify-start">
 			<label class="flex items-center space-x-2">
 				<input type="radio" name="contactReason" value="general" class="form-radio" />
 				<span>Say Hi!</span>
