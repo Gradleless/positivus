@@ -1,11 +1,21 @@
 <script>
-	import CTA from './CTA.svelte';
+	import WorkingProcess from './WorkingProcess.svelte';
+
+	import CastStudies from './CastStudies.svelte';
+
+	import CTA from '../lib/components/CTA.svelte';
 
 	import Services from '../lib/components/Services.svelte';
 
 	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
 
 	import Hero from '../lib/components/Hero.svelte';
+
+	let isOpen = false;
+
+	function toggleAccordion() {
+		isOpen = !isOpen;
+	}
 </script>
 
 <div>
@@ -13,6 +23,8 @@
 	<CustomerLogos />
 	<Services />
 	<CTA />
+	<CastStudies />
+	<WorkingProcess />
 </div>
 
 <style>

@@ -1,9 +1,9 @@
 <script>
-	import Services from '../lib/components/Services.svelte';
+	import Services from './Services.svelte';
 
-	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
+	import CustomerLogos from './CustomerLogos.svelte';
 
-	import Hero from '../lib/components/Hero.svelte';
+	import Hero from './Hero.svelte';
 </script>
 
 <section class="space-grotesk-400 px-6 py-12 md:px-40">
