@@ -9,6 +9,7 @@
 	];
 	let accordions = Array(steps.length).fill(false);
 
+	// @ts-ignore
 	function toggleAccordion(index) {
 		accordions = accordions.map((isOpen, i) => (i === index ? !isOpen : isOpen));
 	}
