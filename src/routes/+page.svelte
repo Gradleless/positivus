@@ -1,32 +1,125 @@
-<div
-	class="space-grotesk-400 flex flex-col-reverse items-center justify-between bg-white px-6 md:flex-row md:px-60"
->
-	<div class="flex w-full flex-col items-start text-center md:w-1/3 md:text-left">
-		<h1 class="mb-4 text-4xl font-bold md:mb-16 md:text-6xl">
-			Navigating the digital landscape for success
-		</h1>
-		<h3 class="text-sm md:text-base">
-			Our digital marketing agency helps businesses grow and succeed online through a range of
-			services including SEO, PPC, social media marketing, and content creation.
-		</h3>
-		<button class="mt-4 rounded bg-[#191A23] px-4 py-2 text-white md:px-6 md:py-3"
-			>Book a Consultation</button
-		>
-	</div>
-	<div class="mb-8 flex w-full items-center justify-center md:mb-0 md:w-auto">
-		<!-- svelte-ignore a11y_img_redundant_alt -->
-		<img src="/Illustration.png" alt="Hero Image" class="h-1/3 w-auto md:h-1/2" />
-	</div>
-</div>
+<script>
+	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
 
-<div class="flex flex-row justify-center gap-x-32 py-10">
-	<img src="/Company logo-6.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-	<img src="/Company logo-5.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-	<img src="/Company logo-1.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-	<img src="/Company logo-2.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-	<img src="/Company logo-3.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-	<img src="/Company logo-4.png" alt="" srcset="" class="h-12 w-auto grayscale filter" />
-</div>
+	import Hero from '../lib/components/Hero.svelte';
+</script>
+
+<Hero />
+<CustomerLogos />
+
+<section class="space-grotesk-400 px-6 py-12 md:px-28">
+	<!-- First Part: 1 row 2 cols -->
+	<div class="just mb-12 flex flex-col items-center md:flex-row">
+		<div class="w-fit items-center p-4 md:w-auto">
+			<h2 class="rounded-lg bg-[#B9FF66] p-1 text-3xl font-bold">Services</h2>
+		</div>
+		<div class="w-[600px] items-center p-4">
+			<p class="">
+				At our digital marketing agency, we offer a range of services to help businesses grow and
+				succeed online. These services include:
+			</p>
+		</div>
+	</div>
+
+	<!-- Second Part: Grid with 1 row 2 cols, 1 col if mobile -->
+	<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 w-fit rounded-lg bg-[#B9FF66] p-2 text-4xl font-bold leading-[40px]">
+					Search Engine
+				</h3>
+				<h3 class=" ml-4 mt-0 w-fit rounded-lg bg-[#B9FF66] p-2 text-4xl font-bold leading-[30px]">
+					Optimization
+				</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+		<div
+			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
+		>
+			<div>
+				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
+				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
+			</div>
+			<div class="ml-4">
+				<img
+					src="/tokyo-magnifier-web-search-with-elements 2.png"
+					alt="Description"
+					class="h-60 w-60 object-scale-down"
+				/>
+			</div>
+		</div>
+	</div>
+</section>
 
 <style>
 	.space-grotesk-300 {
