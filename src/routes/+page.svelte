@@ -1,122 +1,38 @@
 <script>
+	import Services from '../lib/components/Services.svelte';
+
 	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
 
 	import Hero from '../lib/components/Hero.svelte';
 </script>
 
-<Hero />
-<CustomerLogos />
+<div>
+	<Hero />
+	<CustomerLogos />
+	<Services />
+</div>
 
-<section class="space-grotesk-400 px-6 py-12 md:px-28">
-	<!-- First Part: 1 row 2 cols -->
-	<div class="just mb-12 flex flex-col items-center md:flex-row">
-		<div class="w-fit items-center p-4 md:w-auto">
-			<h2 class="rounded-lg bg-[#B9FF66] p-1 text-3xl font-bold">Services</h2>
+<section class="space-grotesk-400 px-6 py-12 md:px-40">
+	<div
+		class="relative flex flex-col items-center justify-between rounded-[45px] bg-[#F3F3F3] px-4 py-5 md:flex-row md:px-20 md:py-10"
+	>
+		<div class="w-full p-4 md:w-1/2">
+			<h1 class="text-4xl font-bold md:text-4xl">Let&apos;s make things happen</h1>
+			<h3 class="mt-4 text-base md:text-base">
+				Contact us today to learn more about how our digital marketing services can help your
+				business grow and succeed online.
+			</h3>
+			<button class="mt-6 rounded-xl bg-[#191A23] px-6 py-3 text-white"
+				>Get your free proposal</button
+			>
 		</div>
-		<div class="w-[600px] items-center p-4">
-			<p class="">
-				At our digital marketing agency, we offer a range of services to help businesses grow and
-				succeed online. These services include:
-			</p>
-		</div>
-	</div>
-
-	<!-- Second Part: Grid with 1 row 2 cols, 1 col if mobile -->
-	<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 w-fit rounded-lg bg-[#B9FF66] p-2 text-4xl font-bold leading-[40px]">
-					Search Engine
-				</h3>
-				<h3 class=" ml-4 mt-0 w-fit rounded-lg bg-[#B9FF66] p-2 text-4xl font-bold leading-[30px]">
-					Optimization
-				</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
-		</div>
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
-		</div>
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
-		</div>
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
-		</div>
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
-		</div>
-		<div
-			class="flex items-center justify-between rounded-[32px] border border-b-8 border-black bg-gray-100 p-4"
-		>
-			<div>
-				<h3 class=" ml-4 mt-6 text-4xl font-bold">Grid Column 1</h3>
-				<p class="ml-4 mt-28">Content for the first grid column goes here.</p>
-			</div>
-			<div class="ml-4">
-				<img
-					src="/tokyo-magnifier-web-search-with-elements 2.png"
-					alt="Description"
-					class="h-60 w-60 object-scale-down"
-				/>
-			</div>
+		<div class="relative w-full p-4 md:w-1/2">
+			<!-- svelte-ignore a11y_img_redundant_alt -->
+			<img
+				src="/Illustration (2).png"
+				alt="CTA Image"
+				class="relative h-auto w-full md:absolute md:right-[50px] md:top-[-130px] md:h-[350px] md:w-auto"
+			/>
 		</div>
 	</div>
 </section>
