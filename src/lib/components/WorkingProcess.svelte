@@ -26,7 +26,7 @@
 	<!-- Accordion Cards -->
 	{#each steps as step, index}
 		<div
-			class="my-5 w-full rounded-2xl p-10 transition-colors duration-300"
+			class="my-5 w-full rounded-2xl p-5 transition-colors duration-300 md:p-10"
 			style="background-color: {accordions[index] ? '#B9FF66' : '#F3F3F3'}"
 		>
 			<div class="overflow-hidden rounded-lg transition-all duration-300">
@@ -37,8 +37,10 @@
 					on:click={() => toggleAccordion(index)}
 				>
 					<div class="flex flex-row items-center">
-						<span class="mr-4 text-6xl font-bold">{String(index + 1).padStart(2, '0')}</span>
-						<span class="font-xl text-2xl">{step}</span>
+						<span class="mr-4 text-3xl font-bold md:text-6xl"
+							>{String(index + 1).padStart(2, '0')}</span
+						>
+						<span class="font-xl text-base md:text-2xl">{step}</span>
 					</div>
 					<button
 						class="flex h-12 w-12 items-stretch justify-center rounded-full border border-black bg-gray-300 text-center text-5xl font-bold"

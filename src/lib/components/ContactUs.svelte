@@ -9,7 +9,7 @@
 	<!-- Contact Us Section -->
 	<div class="relative mx-6 space-y-8 rounded-[45px] bg-[#F3F3F3] p-6 md:p-10">
 		<!-- First Row: Radio Buttons -->
-		<div class="flex flex-col items-center gap-4 md:flex-row md:justify-start">
+		<div class="flex flex-col items-center justify-start gap-4 md:flex-row md:justify-start">
 			<label class="flex items-center space-x-2">
 				<input type="radio" name="contactReason" value="general" class="form-radio" />
 				<span>Say Hi!</span>
