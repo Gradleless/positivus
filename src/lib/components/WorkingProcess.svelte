@@ -42,11 +42,11 @@
 						>
 						<span class="font-xl text-base md:text-2xl">{step}</span>
 					</div>
-					<button
-						class="flex h-12 w-12 items-stretch justify-center rounded-full border border-black bg-gray-300 text-center text-5xl font-bold"
-					>
-						{accordions[index] ? '-' : '+'}
-					</button>
+					{#if accordions[index]}
+						<img src="/plus.png" alt="Collapse" class="h-14 w-14" />
+					{:else}
+						<img src="/minus.png" alt="Expand" class="h-14 w-14" />
+					{/if}
 				</div>
 				{#if accordions[index]}
 					<div class="border-t border-black p-4 transition-all duration-300">
