@@ -8,6 +8,9 @@
 </script>
 
 <svelte:head>
+	<title>Positivus</title>
+	<link rel="icon" href="favicon.png" type="image/png" />
+
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Positivus" />
