@@ -7,6 +7,25 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Positivus" />
+	<meta
+		property="og:description"
+		content="A stunning and versatile SvelteKit Landing Page designed for digital marketing agencies."
+	/>
+	<meta property="og:image" content="/link-thumbnail.jpeg" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Positivus" />
+	<meta
+		name="twitter:description"
+		content="A stunning and versatile SvelteKit Landing Page designed for digital marketing agencies."
+	/>
+	<meta name="twitter:image" content="/link-thumbnail.jpeg" />
+</svelte:head>
 <NavBar />
 {@render children()}
 <Footer />
