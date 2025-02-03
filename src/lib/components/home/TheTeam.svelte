@@ -54,28 +54,28 @@
 <section class="space-grotesk-400 px-6 py-12 md:px-40">
 	<div class="mb-16 flex flex-col items-center gap-x-8 md:flex-row">
 		<h2 class="rounded-xl bg-[#B9FF66] p-1 text-4xl font-bold">Team</h2>
-		<h3 class="font-base w-[400px] text-base text-black">
+		<h3 class="font-base text-base text-black mt-2">
 			Meet the skilled and experienced team behind our successful digital marketing strategies
 		</h3>
 	</div>
 
 	<!-- Team Cards Grid -->
-	<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+	<div class="grid grid-cols-1 gap-8 xl:grid-cols-3">
 		{#each teamMembers as member}
-			<div class="relative rounded-[45px] border border-b-8 border-black p-12">
-				<div class="mb-4 flex items-end justify-between">
-					<div class="flex items-end">
+			<div class="relative rounded-[45px] border border-b-8 border-black p-12 duration-300 hover:border-b-[1px] hover:pb-[3.438rem]">
+				<div class="mb-4 flex items-start justify-between">
+					<div class="flex items-center">
 						<img src={member.image} alt={member.name} class="mr-4 h-20 w-20" />
-						<div class="flex flex-col items-start justify-center">
+						<div>
 							<h4 class="text-xl font-bold">{member.name}</h4>
 							<p class="text-gray-600">{member.position}</p>
 						</div>
 					</div>
-					<a href={member.linkedin} target="_blank" class="absolute right-14 top-14">
-						<img src="/Social icon.png" alt="LinkedIn" class="h-8 w-8" />
-					</a>
 				</div>
-				<div class="mb border-t border-black">
+				<a href={member.linkedin} target="_blank" class="shrink-0">
+					<img src="/Social icon.png" alt="LinkedIn" class="h-8 w-8" />
+				</a>
+				<div class="mt-3 border-t border-black">
 					<p class="mt-8 text-gray-600">{member.description}</p>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 
 	<!-- See All Team Button -->
 	<div class="mt-8 flex justify-end">
-		<button class="rounded-[14px] bg-[#191A23] px-20 py-5 text-white">See All Team</button>
+		<button class="rounded-[14px] bg-[#191A23] px-20 py-5 text-white hover:bg-[#191A23]/90 active:duration-0 active:bg-[#191A23]/80 duration-200">See All Team</button>
 	</div>
 </section>
 

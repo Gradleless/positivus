@@ -1,13 +1,14 @@
 <script>
-	import ContactUs from '$lib/components/ContactUs.svelte';
+	import Hero from '$lib/components/home/Hero.svelte';
+	import CastStudies from '$lib/components/home/CastStudies.svelte';
+	import ContactUs from '$lib/components/home/ContactUs.svelte';
+	import CustomerLogos from '$lib/components/home/CustomerLogos.svelte';
+	import Services from '$lib/components/home/Services.svelte';
 
-	import TheTeam from '$lib/components/TheTeam.svelte';
-	import WorkingProcess from '$lib/components/WorkingProcess.svelte';
-	import CastStudies from '../lib/components/CastStudies.svelte';
-	import CTA from '../lib/components/CTA.svelte';
-	import Services from '../lib/components/Services.svelte';
-	import CustomerLogos from '../lib/components/CustomerLogos.svelte';
-	import Hero from '../lib/components/Hero.svelte';
+	import TheTeam from '$lib/components/home/TheTeam.svelte';
+	import WorkingProcess from '$lib/components/home/WorkingProcess.svelte';
+	import CTA from '$lib/components/home/CTA.svelte';
+
 </script>
 
 <div>

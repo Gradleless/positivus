@@ -1,5 +1,4 @@
 <script>
-	import Hero from './Hero.svelte';
 </script>
 
 <div class="flex flex-wrap justify-center gap-8 py-10 md:gap-x-32">
